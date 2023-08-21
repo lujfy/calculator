@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right , pink , yellowgreen);
+
+}
+
+.calculator{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color:rgb(54, 40, 87);
+}
+.btn{
+    width: 75px;
+    height: 75px;
+    margin:15px;
+    font-size: 40px;
+}
+
+.number{
+    background-color: rgb(165, 163, 163);
+}
+.number:hover{
+    background-color: rgb(134, 132, 132) ;
+}
+
+.clear{
+    background-color: rgb(189, 70, 70);
+}
+
+.clear:hover{
+    background-color: rgb(167, 59, 59);
+}
+
+.operator{
+    background-color: rgb(139, 139, 248);
+}
+
+.operator:hover{
+    background-color: rgb(95, 95, 194);
+}
+
+.decimal {
+    background-color: rgb(210, 138, 30);
+}
+
+.decimal:hover {
+    background-color: rgb(155, 102, 23);
+}
+
+.equal{
+    background-color: rgba(167, 235, 99, 0.884);
+}
+
+.equal:hover{
+    background-color: rgba(130, 187, 74, 0.884);
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.screen{
+    border: 1px solid greenyellow;
+    width:310px;
+    height: 75px;
+    margin: 5px;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current {
+    font-size: 30px;
+}
